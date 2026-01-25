@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-24">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padhai Likhai Library | Best Study Library in Ganaur, Sonipat</title>
+    <meta name="description" content="Trusted Study Library in Ganaur with 5+ years of excellence. Peaceful environment, AC, High-speed Wi-Fi, and Personal Lockers. Perfect for UPSC, SSC, and Bank exam aspirants.">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: '#FAF7F2',
+                            dark: '#0F172A',
+                            surface: {
+                                light: '#F3EFE7',
+                                dark: '#1E293B'
+                            },
+                            accent: {
+                                light: '#D97706',
+                                dark: '#FBBF24'
+                            },
+                            text: {
+                                light: '#111827',
+                                dark: '#F8FAFC'
+                            }
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        body { 
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .dark .gradient-text {
+            background: linear-gradient(135deg, #FBBF24 0%, #F59E0B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { 
+            background: #D97706; 
+            border-radius: 10px;
+        }
+        /* Mobile menu hardware acceleration */
+        .mobile-menu-transition {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+      }
+    }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-brand-light dark:bg-brand-dark text-brand-text-light dark:text-brand-text-dark">
+    <div id="root"></div>
+    <script>
+        // Check local storage or system preference for theme
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

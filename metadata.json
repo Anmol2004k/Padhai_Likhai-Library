@@ -1,0 +1,7 @@
+{
+  "name": "Padhai Likhai Library - Best Study Center in Ganaur",
+  "description": "Premium study environment for competitive exam aspirants in Ganaur, Haryana. Managed by professionals with 5+ years of excellence. Features AC, high-speed Wi-Fi, and silent zones.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
