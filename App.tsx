@@ -53,7 +53,7 @@ const App: React.FC = () => {
       {/* Floating Action Buttons for Mobile */}
       <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50 md:hidden">
         <a 
-          href="https://wa.me/910000000000" 
+          href="https://wa.me/7503300060" 
           onClick={() => trackEvent('whatsapp_click', { position: 'floating' })}
           className="w-14 h-14 bg-green-600 text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-green-700 transition-transform active:scale-95 border-2 border-white/20"
           aria-label="WhatsApp Us"
@@ -61,7 +61,7 @@ const App: React.FC = () => {
           <i className="fab fa-whatsapp text-2xl"></i>
         </a>
         <a 
-          href="tel:+910000000000" 
+          href="tel:+917503300060" 
           onClick={() => trackEvent('call_click', { position: 'floating' })}
           className="w-14 h-14 bg-blue-700 text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-blue-800 transition-transform active:scale-95 border-2 border-white/20"
           aria-label="Call Us"

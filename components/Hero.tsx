@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
               <i className="fas fa-graduation-cap"></i> Start Now
             </a>
             <a 
-              href="https://wa.me/910000000000"
+              href="https://wa.me/7503300060"
               onClick={() => trackEvent('whatsapp_click', { position: 'hero' })}
               className="bg-brand-surface-light dark:bg-brand-surface-dark text-brand-text-light dark:text-brand-text-dark border-2 border-brand-accent-light/20 px-10 py-5 rounded-2xl font-black text-xl hover:bg-brand-accent-light/5 transition-all flex items-center justify-center gap-3"
             >

@@ -69,7 +69,7 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
           </button>
 
           <a 
-            href="tel:+910000000000" 
+            href="tel:+91-7503300060" 
             className="bg-brand-accent-light dark:bg-brand-accent-dark text-white dark:text-brand-dark px-6 py-2.5 rounded-full text-sm font-black shadow-xl hover:scale-105 active:scale-95 transition-all"
           >
             Call Now
@@ -112,7 +112,7 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
             </a>
           ))}
           <a 
-            href="tel:+910000000000"
+            href="tel:+7503300060"
             className="w-full bg-brand-accent-light dark:bg-brand-accent-dark text-white dark:text-brand-dark py-4 rounded-xl text-center font-black text-lg shadow-lg"
           >
             Join Today

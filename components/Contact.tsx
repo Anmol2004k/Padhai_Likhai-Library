@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
                   <i className="fab fa-whatsapp"></i>
                 </div>
                 <h4 className="font-black text-xl mb-2">WhatsApp</h4>
-                <p className="opacity-70 font-medium">+91 000 000 0000</p>
+                <p className="opacity-70 font-medium">+91 7503300060</p>
               </div>
             </div>
 
