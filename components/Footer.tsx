@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               Ganaur's leading study library providing a premium environment for aspirants to focus, learn, and succeed. Managed by professionals for the past 5+ years.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors"><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/anmolthaakur_/?hl=en" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors"><i className="fab fa-instagram"></i></a>
               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors"><i className="fab fa-instagram"></i></a>
               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors"><i className="fab fa-linkedin-in"></i></a>
             </div>
