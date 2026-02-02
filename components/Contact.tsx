@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
                   <i className="fas fa-map-marker-alt"></i>
                 </div>
                 <h4 className="font-black text-xl mb-2">Find Us</h4>
-                <p className="opacity-70 font-medium">Jai Bharat Colony, Ganaur, Sonipat, Haryana 131101</p>
+                <p className="opacity-70 font-medium">Jai Bharat Colony, Near Chhoker Hospital Railway Road Ganaur GT Road Sonipat, Ganaur, Haryana 131101</p>
               </div>
 
               <div className="p-8 rounded-3xl bg-brand-light dark:bg-brand-dark shadow-lg border-2 border-brand-accent-light/10">
@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
             <div className="rounded-[40px] overflow-hidden shadow-2xl border-4 border-brand-light dark:border-brand-dark h-96 relative group">
               <div className="absolute inset-0 bg-brand-accent-light/5 pointer-events-none z-10"></div>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3488.0827101869824!2d77.0205!3d29.1307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390da57f6a735c0d%3A0xe7f989f664539860!2sPadhai%20Likhai%20Library!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.741568770492!2d77.03471077497588!3d29.142812060726808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db705edbf7057%3A0x954ac952e5f61b4f!2sPadhai%20Likhai%20Library!5e0!3m2!1sen!2sin!4v1770055504053!5m2!1sen!2sin"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, filter: 'grayscale(0.2) contrast(1.1)' }} 
