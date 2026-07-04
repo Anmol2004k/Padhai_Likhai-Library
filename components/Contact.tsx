@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
                   <i className="fas fa-map-marker-alt"></i>
                 </div>
                 <h4 className="font-black text-xl mb-2">Find Us</h4>
-                <p className="opacity-70 font-medium">Jai Bharat Colony, Near Chhoker Hospital Railway Road Ganaur GT Road Sonipat, Ganaur, Haryana 131101</p>
+                <p className="opacity-70 font-medium"> Gurugram, Haryana</p>
               </div>
 
               <div className="p-8 rounded-3xl bg-brand-light dark:bg-brand-dark shadow-lg border-2 border-brand-accent-light/10">
@@ -33,14 +33,14 @@ const Contact: React.FC = () => {
                   <i className="fab fa-whatsapp"></i>
                 </div>
                 <h4 className="font-black text-xl mb-2">WhatsApp</h4>
-                <p className="opacity-70 font-medium">+91 7503300060</p>
+                <p className="opacity-70 font-medium">+91 9871347495</p>
               </div>
             </div>
 
             <div className="rounded-[40px] overflow-hidden shadow-2xl border-4 border-brand-light dark:border-brand-dark h-96 relative group">
               <div className="absolute inset-0 bg-brand-accent-light/5 pointer-events-none z-10"></div>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.741568770492!2d77.03471077497588!3d29.142812060726808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db705edbf7057%3A0x954ac952e5f61b4f!2sPadhai%20Likhai%20Library!5e0!3m2!1sen!2sin!4v1770055504053!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42704.89757086345!2d76.99323959943368!3d28.46596061887662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d694ef8ba7%3A0xe2ff4208628f8e41!2sGurugram%20Library!5e1!3m2!1sen!2sin!4v1783144579899!5m2!1sen!2sin"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, filter: 'grayscale(0.2) contrast(1.1)' }} 

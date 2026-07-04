@@ -11,7 +11,7 @@ const AboutUs: React.FC = () => {
               <div className="rounded-3xl overflow-hidden shadow-2xl">
                 <img 
                   src="https://picsum.photos/600/800?grayscale&v=1" 
-                  alt="Padhai Likhai Library Founders" 
+                  alt="Gurgao Library Founders" 
                   className="w-full h-auto"
                 />
               </div>
@@ -26,7 +26,7 @@ const AboutUs: React.FC = () => {
             <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">Guided by Professional Excellence</h2>
             <div className="space-y-6 text-slate-700 leading-relaxed text-lg">
               <p>
-                Founded and managed by a dedicated husband-and-wife duo, <strong>Padhai Likhai Library</strong> is more than just a study space; it's a sanctuary for future leaders.
+                Founded and managed by a dedicated husband-and-wife duo, <strong>Gurgao Library</strong> is more than just a study space; it's a sanctuary for future leaders.
               </p>
               <p>
                 The husband, a distinguished professional lawyer and property dealer, brings a sense of legality, ethics, and strong discipline to the institution. His vision was to create a place where students are respected and their time is valued.
@@ -45,7 +45,7 @@ const AboutUs: React.FC = () => {
                </div>
                <div>
                  <div className="font-bold">Founders & Managers</div>
-                 <div className="text-sm text-slate-500">Padhai Likhai Library</div>
+                 <div className="text-sm text-slate-500">Gurgao Library</div>
                </div>
             </div>
           </div>

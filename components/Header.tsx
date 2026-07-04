@@ -41,10 +41,10 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" onClick={handleLinkClick} className="flex items-center gap-2 group">
           <div className="w-10 h-10 bg-brand-accent-light dark:bg-brand-accent-dark text-brand-light dark:text-brand-dark flex items-center justify-center rounded-lg font-bold text-xl group-hover:rotate-12 transition-transform shadow-md">
-            P
+            G
           </div>
           <span className={`text-xl font-bold tracking-tight hidden sm:block`}>
-            Padhai <span className="text-brand-accent-light dark:text-brand-accent-dark">Likhai</span>
+            Gurgao <span className="text-brand-accent-light dark:text-brand-accent-dark">Library</span>
           </span>
         </a>
 
@@ -69,7 +69,7 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
           </button>
 
           <a 
-            href="tel:+91-7503300060" 
+            href="tel:+91-9871347495" 
             className="bg-brand-accent-light dark:bg-brand-accent-dark text-white dark:text-brand-dark px-6 py-2.5 rounded-full text-sm font-black shadow-xl hover:scale-105 active:scale-95 transition-all"
           >
             Call Now
@@ -112,7 +112,7 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
             </a>
           ))}
           <a 
-            href="tel:+7503300060"
+            href="tel:+91-9871347495"
             className="w-full bg-brand-accent-light dark:bg-brand-accent-dark text-white dark:text-brand-dark py-4 rounded-xl text-center font-black text-lg shadow-lg"
           >
             Join Today

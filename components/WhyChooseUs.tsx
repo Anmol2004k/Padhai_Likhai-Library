@@ -15,14 +15,14 @@ const WhyChooseUs: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
-            <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">Why Padhai Likhai Library Stands Out?</h2>
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">Why Gurgao Library Stands Out?</h2>
             
             <div className="space-y-8">
               <div className="flex gap-6">
                 <div className="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center font-bold text-xl">1</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">5+ Years of Trust</h3>
-                  <p className="text-blue-100">We are the oldest and most trusted library in Ganaur with a proven track record.</p>
+                  <p className="text-blue-100">We are the oldest and most trusted library in Gurgao with a proven track record.</p>
                 </div>
               </div>
 

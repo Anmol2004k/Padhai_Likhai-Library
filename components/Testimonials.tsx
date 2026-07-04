@@ -5,19 +5,19 @@ const testimonials = [
   { 
     name: 'Sandeep Kumar', 
     target: 'SSC CGL Selected', 
-    text: 'The silence at Padhai Likhai Library is unmatched. I spent 10 hours daily here and cleared my exams in the first attempt. The owners are very supportive.',
+    text: 'The silence at Gurgao Library is unmatched. I spent 10 hours daily here and cleared my exams in the first attempt. The owners are very supportive.',
     img: 'https://picsum.photos/100/100?sig=10'
   },
   { 
     name: 'Priya Sharma', 
     target: 'Bank PO Aspirant', 
-    text: 'Finally found a library in Ganaur that actually maintains AC and Wi-Fi properly. The premium plan with a locker is a lifesaver for my books.',
+    text: 'Finally found a library in Gurgao that actually maintains AC and Wi-Fi properly. The premium plan with a locker is a lifesaver for my books.',
     img: 'https://picsum.photos/100/100?sig=11'
   },
   { 
     name: 'Amit Dahiya', 
     target: 'UPSC Candidate', 
-    text: 'I have tried many libraries in Delhi, but the discipline here is at par with Top institutes. Highly recommended for serious aspirants.',
+    text: 'I have tried many libraries in Gurgao, but the discipline here is at par with Top institutes. Highly recommended for serious aspirants.',
     img: 'https://picsum.photos/100/100?sig=12'
   },
 ];
